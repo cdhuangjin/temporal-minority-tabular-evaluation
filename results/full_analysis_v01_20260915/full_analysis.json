@@ -1,0 +1,674 @@
+{
+  "schema_version": "tabred-temporal-minority-full-analysis-v0.1",
+  "decision": "COMPLETE",
+  "record_count": 450,
+  "pass_count": 450,
+  "error_count": 0,
+  "full_protocol": "temporal_minority_full_experiment_protocol_v0.1.md",
+  "analysis_amendment": "temporal_minority_full_experiment_amendment_20260915.md",
+  "cell_effects": [
+    {
+      "dataset": "homesite-insurance",
+      "model": "logistic",
+      "auprc_drop_pp": 4.836598913371523,
+      "auprc_drop_pp_sd": 0.2930213877132,
+      "auprc_drop_pp_ci95": [
+        4.497502763340056,
+        5.189995784194686
+      ],
+      "worst_window_auprc_drop_pp": 5.05688202582441,
+      "worst_window_auprc_drop_pp_sd": 1.5737863330685813,
+      "worst_window_auprc_drop_pp_ci95": [
+        2.9080779074151164,
+        6.162888694514044
+      ],
+      "roc_auc_drop_pp": 2.0842427395966676,
+      "roc_auc_drop_pp_sd": 0.20081371740059695,
+      "roc_auc_drop_pp_ci95": [
+        1.8115127297578588,
+        2.246016179546028
+      ],
+      "excess_drop_pp": 2.7523561737748548,
+      "excess_drop_pp_median": 2.6858782469739717,
+      "excess_drop_pp_ci95": [
+        2.5767427430137957,
+        2.9950618632959363
+      ]
+    },
+    {
+      "dataset": "homesite-insurance",
+      "model": "xgboost",
+      "auprc_drop_pp": 3.313419648581299,
+      "auprc_drop_pp_sd": 1.5747127505085685,
+      "auprc_drop_pp_ci95": [
+        1.1694203865873904,
+        4.4149314665031545
+      ],
+      "worst_window_auprc_drop_pp": 2.5726276472154477,
+      "worst_window_auprc_drop_pp_sd": 2.3985835328137117,
+      "worst_window_auprc_drop_pp_ci95": [
+        -0.686062274232999,
+        4.413614535183564
+      ],
+      "roc_auc_drop_pp": 1.284669518307567,
+      "roc_auc_drop_pp_sd": 0.440291374621101,
+      "roc_auc_drop_pp_ci95": [
+        0.6904242585729207,
+        1.6249499876437363
+      ],
+      "excess_drop_pp": 2.0287501302737323,
+      "excess_drop_pp_median": 2.7419417130347346,
+      "excess_drop_pp_ci95": [
+        0.4822471103511384,
+        2.854130094709145
+      ]
+    },
+    {
+      "dataset": "homesite-insurance",
+      "model": "lightgbm",
+      "auprc_drop_pp": 3.2673921239860273,
+      "auprc_drop_pp_sd": 1.478844892436673,
+      "auprc_drop_pp_ci95": [
+        1.2550893125394214,
+        4.300844108402702
+      ],
+      "worst_window_auprc_drop_pp": 2.4194886161888642,
+      "worst_window_auprc_drop_pp_sd": 2.3911916142727008,
+      "worst_window_auprc_drop_pp_ci95": [
+        -0.8116602923196082,
+        4.387187550978156
+      ],
+      "roc_auc_drop_pp": 1.2562691482424453,
+      "roc_auc_drop_pp_sd": 0.3966870979966588,
+      "roc_auc_drop_pp_ci95": [
+        0.7314675643423593,
+        1.6129848124511976
+      ],
+      "excess_drop_pp": 2.0111229757435822,
+      "excess_drop_pp_median": 2.677460310339297,
+      "excess_drop_pp_ci95": [
+        0.5240929288450163,
+        2.824962958619243
+      ]
+    },
+    {
+      "dataset": "homesite-insurance",
+      "model": "mlp",
+      "auprc_drop_pp": 5.6322878149914795,
+      "auprc_drop_pp_sd": 1.3082587933124552,
+      "auprc_drop_pp_ci95": [
+        3.988060804513421,
+        6.604888206526558
+      ],
+      "worst_window_auprc_drop_pp": 5.221912836479727,
+      "worst_window_auprc_drop_pp_sd": 2.0532443996025,
+      "worst_window_auprc_drop_pp_ci95": [
+        2.807345389871938,
+        7.169396469612679
+      ],
+      "roc_auc_drop_pp": 2.5365092439893417,
+      "roc_auc_drop_pp_sd": 0.4383287133512037,
+      "roc_auc_drop_pp_ci95": [
+        2.0805607223232236,
+        2.8570092556031814
+      ],
+      "excess_drop_pp": 3.095778571002138,
+      "excess_drop_pp_median": 3.591866035370317,
+      "excess_drop_pp_ci95": [
+        1.9080259262842336,
+        3.7728545249997
+      ]
+    },
+    {
+      "dataset": "ecom-offers",
+      "model": "logistic",
+      "auprc_drop_pp": -3.9935932672241963,
+      "auprc_drop_pp_sd": 0.7501621150307656,
+      "auprc_drop_pp_ci95": [
+        -5.009158231580144,
+        -3.3672926012153965
+      ],
+      "worst_window_auprc_drop_pp": -14.204444955135765,
+      "worst_window_auprc_drop_pp_sd": 7.141249599373781,
+      "worst_window_auprc_drop_pp_ci95": [
+        -19.614050078048514,
+        -4.468023259881061
+      ],
+      "roc_auc_drop_pp": 3.997343014932279,
+      "roc_auc_drop_pp_sd": 0.33159363052727403,
+      "roc_auc_drop_pp_ci95": [
+        3.592656133675935,
+        4.375946095133429
+      ],
+      "excess_drop_pp": -7.990936282156477,
+      "excess_drop_pp_median": -7.390975419497014,
+      "excess_drop_pp_ci95": [
+        -9.385219654686356,
+        -7.197254773312724
+      ]
+    },
+    {
+      "dataset": "ecom-offers",
+      "model": "xgboost",
+      "auprc_drop_pp": 0.09615047974948054,
+      "auprc_drop_pp_sd": 3.578170600626985,
+      "auprc_drop_pp_ci95": [
+        -3.532862059392468,
+        4.685285681717081
+      ],
+      "worst_window_auprc_drop_pp": -12.305741536781287,
+      "worst_window_auprc_drop_pp_sd": 4.311506750742915,
+      "worst_window_auprc_drop_pp_ci95": [
+        -17.66020402260196,
+        -7.5601255477954235
+      ],
+      "roc_auc_drop_pp": 8.062050736559028,
+      "roc_auc_drop_pp_sd": 3.4798329530360337,
+      "roc_auc_drop_pp_ci95": [
+        3.904026345718317,
+        12.092944845887937
+      ],
+      "excess_drop_pp": -7.965900256809549,
+      "excess_drop_pp_median": -7.504043956536766,
+      "excess_drop_pp_ci95": [
+        -9.035143888633973,
+        -7.354885152025583
+      ]
+    },
+    {
+      "dataset": "ecom-offers",
+      "model": "lightgbm",
+      "auprc_drop_pp": -0.3930172843217291,
+      "auprc_drop_pp_sd": 3.127832664575795,
+      "auprc_drop_pp_ci95": [
+        -3.7226396428806106,
+        3.551521798828703
+      ],
+      "worst_window_auprc_drop_pp": -12.955453198051044,
+      "worst_window_auprc_drop_pp_sd": 3.944822024515777,
+      "worst_window_auprc_drop_pp_ci95": [
+        -17.560661452422195,
+        -8.292007514939453
+      ],
+      "roc_auc_drop_pp": 7.94694363788153,
+      "roc_auc_drop_pp_sd": 3.451848265161671,
+      "roc_auc_drop_pp_ci95": [
+        3.797245994592427,
+        11.936803684283017
+      ],
+      "excess_drop_pp": -8.33996092220326,
+      "excess_drop_pp_median": -8.34325876067647,
+      "excess_drop_pp_ci95": [
+        -9.11863640569284,
+        -7.5277450213639785
+      ]
+    },
+    {
+      "dataset": "ecom-offers",
+      "model": "mlp",
+      "auprc_drop_pp": -0.8783131981251161,
+      "auprc_drop_pp_sd": 2.495505452110753,
+      "auprc_drop_pp_ci95": [
+        -3.009971438998468,
+        2.180500721300655
+      ],
+      "worst_window_auprc_drop_pp": -12.976927022084695,
+      "worst_window_auprc_drop_pp_sd": 5.048999532615821,
+      "worst_window_auprc_drop_pp_ci95": [
+        -18.382516350547814,
+        -6.890577613153054
+      ],
+      "roc_auc_drop_pp": 7.833561306373599,
+      "roc_auc_drop_pp_sd": 2.261849461936919,
+      "roc_auc_drop_pp_ci95": [
+        5.099191618831468,
+        10.094036955644533
+      ],
+      "excess_drop_pp": -8.711874504498715,
+      "excess_drop_pp_median": -8.342280177499356,
+      "excess_drop_pp_ci95": [
+        -10.159599098915166,
+        -7.748646520000145
+      ]
+    },
+    {
+      "dataset": "homecredit-default",
+      "model": "logistic",
+      "auprc_drop_pp": -0.9769531839651908,
+      "auprc_drop_pp_sd": 0.9600305724700492,
+      "auprc_drop_pp_ci95": [
+        -2.1248846393251988,
+        0.14636009930447486
+      ],
+      "worst_window_auprc_drop_pp": -0.40426452094713206,
+      "worst_window_auprc_drop_pp_sd": 0.6303105129718756,
+      "worst_window_auprc_drop_pp_ci95": [
+        -1.1450936665439921,
+        0.34408583818935284
+      ],
+      "roc_auc_drop_pp": -0.632583769999456,
+      "roc_auc_drop_pp_sd": 4.558715346095606,
+      "roc_auc_drop_pp_ci95": [
+        -6.845689168133176,
+        2.848192979152614
+      ],
+      "excess_drop_pp": -0.34436941396573456,
+      "excess_drop_pp_median": -3.054252139297517,
+      "excess_drop_pp_ci95": [
+        -4.973243368341175,
+        6.992162658275176
+      ]
+    },
+    {
+      "dataset": "homecredit-default",
+      "model": "xgboost",
+      "auprc_drop_pp": -0.7086298974645532,
+      "auprc_drop_pp_sd": 3.54010817842385,
+      "auprc_drop_pp_ci95": [
+        -4.297030344147875,
+        3.7920832234905366
+      ],
+      "worst_window_auprc_drop_pp": -0.32421344723261303,
+      "worst_window_auprc_drop_pp_sd": 2.9170900304773157,
+      "worst_window_auprc_drop_pp_ci95": [
+        -3.2508155199985254,
+        3.283380415117057
+      ],
+      "roc_auc_drop_pp": 0.5931110200919387,
+      "roc_auc_drop_pp_sd": 0.40648247958035116,
+      "roc_auc_drop_pp_ci95": [
+        0.06935564897668185,
+        0.9229717476328723
+      ],
+      "excess_drop_pp": -1.301740917556492,
+      "excess_drop_pp_median": -2.4834797185239066,
+      "excess_drop_pp_ci95": [
+        -5.104249162101104,
+        3.7252242480925575
+      ]
+    },
+    {
+      "dataset": "homecredit-default",
+      "model": "lightgbm",
+      "auprc_drop_pp": -0.962804262227681,
+      "auprc_drop_pp_sd": 3.446992442030488,
+      "auprc_drop_pp_ci95": [
+        -4.605557490920075,
+        3.346093321056407
+      ],
+      "worst_window_auprc_drop_pp": -0.7023361912821043,
+      "worst_window_auprc_drop_pp_sd": 2.9746332250174143,
+      "worst_window_auprc_drop_pp_ci95": [
+        -3.434707044628424,
+        3.1082597694272773
+      ],
+      "roc_auc_drop_pp": 0.5887621542744959,
+      "roc_auc_drop_pp_sd": 0.47333834092954047,
+      "roc_auc_drop_pp_ci95": [
+        -0.015555087550663446,
+        1.067732741578477
+      ],
+      "excess_drop_pp": -1.551566416502177,
+      "excess_drop_pp_median": -2.6435125442575536,
+      "excess_drop_pp_ci95": [
+        -5.319020499724165,
+        3.3714213013239354
+      ]
+    },
+    {
+      "dataset": "homecredit-default",
+      "model": "mlp",
+      "auprc_drop_pp": 1.5757054424992527,
+      "auprc_drop_pp_sd": 2.9307684585764955,
+      "auprc_drop_pp_ci95": [
+        -1.2793488684282361,
+        4.997417121574292
+      ],
+      "worst_window_auprc_drop_pp": 2.569781329805198,
+      "worst_window_auprc_drop_pp_sd": 1.5771638631160385,
+      "worst_window_auprc_drop_pp_ci95": [
+        1.4392639703804835,
+        4.185259429246889
+      ],
+      "roc_auc_drop_pp": 5.287305839163989,
+      "roc_auc_drop_pp_sd": 2.3348214110657457,
+      "roc_auc_drop_pp_ci95": [
+        3.863914152191366,
+        6.874147709780004
+      ],
+      "excess_drop_pp": -3.711600396664737,
+      "excess_drop_pp_median": -4.6144584925026155,
+      "excess_drop_pp_ci95": [
+        -6.633639560281408,
+        0.7031379302113395
+      ]
+    }
+  ],
+  "exact_sign_flip_excess": {
+    "observed_median": -0.014266536670293345,
+    "observed_median_pp": -1.4266536670293344,
+    "permutations": 4096,
+    "p_two_sided": 0.55224609375
+  },
+  "rankings": [
+    {
+      "dataset": "homesite-insurance",
+      "metric": "auprc",
+      "temporal_ranking": [
+        "lightgbm",
+        "xgboost",
+        "mlp",
+        "logistic"
+      ],
+      "random_ranking": [
+        "lightgbm",
+        "xgboost",
+        "mlp",
+        "logistic"
+      ],
+      "ranking_changed": false,
+      "kendall_tau_b": 1.0,
+      "kendall_p": 0.08333333333333333
+    },
+    {
+      "dataset": "homesite-insurance",
+      "metric": "worst_window_auprc",
+      "temporal_ranking": [
+        "lightgbm",
+        "xgboost",
+        "mlp",
+        "logistic"
+      ],
+      "random_ranking": [
+        "lightgbm",
+        "xgboost",
+        "mlp",
+        "logistic"
+      ],
+      "ranking_changed": false,
+      "kendall_tau_b": 1.0,
+      "kendall_p": 0.08333333333333333
+    },
+    {
+      "dataset": "ecom-offers",
+      "metric": "auprc",
+      "temporal_ranking": [
+        "lightgbm",
+        "mlp",
+        "xgboost",
+        "logistic"
+      ],
+      "random_ranking": [
+        "xgboost",
+        "lightgbm",
+        "mlp",
+        "logistic"
+      ],
+      "ranking_changed": true,
+      "kendall_tau_b": 0.3333333333333334,
+      "kendall_p": 0.75
+    },
+    {
+      "dataset": "ecom-offers",
+      "metric": "worst_window_auprc",
+      "temporal_ranking": [
+        "lightgbm",
+        "xgboost",
+        "mlp",
+        "logistic"
+      ],
+      "random_ranking": [
+        "xgboost",
+        "lightgbm",
+        "mlp",
+        "logistic"
+      ],
+      "ranking_changed": true,
+      "kendall_tau_b": 0.6666666666666669,
+      "kendall_p": 0.3333333333333333
+    },
+    {
+      "dataset": "homecredit-default",
+      "metric": "auprc",
+      "temporal_ranking": [
+        "lightgbm",
+        "xgboost",
+        "logistic",
+        "mlp"
+      ],
+      "random_ranking": [
+        "lightgbm",
+        "xgboost",
+        "mlp",
+        "logistic"
+      ],
+      "ranking_changed": true,
+      "kendall_tau_b": 0.6666666666666669,
+      "kendall_p": 0.3333333333333333
+    },
+    {
+      "dataset": "homecredit-default",
+      "metric": "worst_window_auprc",
+      "temporal_ranking": [
+        "lightgbm",
+        "xgboost",
+        "logistic",
+        "mlp"
+      ],
+      "random_ranking": [
+        "xgboost",
+        "lightgbm",
+        "mlp",
+        "logistic"
+      ],
+      "ranking_changed": true,
+      "kendall_tau_b": 0.3333333333333334,
+      "kendall_p": 0.75
+    }
+  ],
+  "interventions": [
+    {
+      "intervention": "class_balanced",
+      "metric": "auprc",
+      "mean_change": -0.021290233780120595,
+      "sd_change": 0.02400724540579198,
+      "ci95": [
+        -0.042102507016581615,
+        -0.0004938025879395631
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "class_balanced",
+      "metric": "worst_window_auprc",
+      "mean_change": -0.015350871562951158,
+      "sd_change": 0.01868249533528995,
+      "ci95": [
+        -0.029271756482392813,
+        -0.0002696017165584517
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "class_balanced",
+      "metric": "roc_auc",
+      "mean_change": -0.012520007002994282,
+      "sd_change": 0.016324213040354644,
+      "ci95": [
+        -0.02538732613105443,
+        1.723038622264458e-05
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "class_balanced",
+      "metric": "ece_10",
+      "mean_change": 0.12650978250718214,
+      "sd_change": 0.082365462807477,
+      "ci95": [
+        0.05485775370556954,
+        0.21845816583157363
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "class_balanced",
+      "metric": "brier",
+      "mean_change": 0.042763910826135,
+      "sd_change": 0.03655106175470001,
+      "ci95": [
+        0.012574669817655641,
+        0.08535557415689257
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "recency",
+      "metric": "auprc",
+      "mean_change": -0.002599046472985275,
+      "sd_change": 0.010819385766790769,
+      "ci95": [
+        -0.014663410982929764,
+        0.00694023066213107
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "recency",
+      "metric": "worst_window_auprc",
+      "mean_change": -0.0034070575923169383,
+      "sd_change": 0.010793594080630678,
+      "ci95": [
+        -0.014449892647647372,
+        0.004743018371221896
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "recency",
+      "metric": "roc_auc",
+      "mean_change": -0.0023095058687845386,
+      "sd_change": 0.0059310969453549205,
+      "ci95": [
+        -0.008538352741679791,
+        0.0023665955833124335
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "recency",
+      "metric": "ece_10",
+      "mean_change": -0.003927570895711367,
+      "sd_change": 0.007230456661276316,
+      "ci95": [
+        -0.008983039872309,
+        -0.0002992773823393389
+      ],
+      "n": 45
+    },
+    {
+      "intervention": "recency",
+      "metric": "brier",
+      "mean_change": -0.0009747338643665396,
+      "sd_change": 0.001968690558883329,
+      "ci95": [
+        -0.0029397193055289567,
+        0.00019090759141111513
+      ],
+      "n": 45
+    }
+  ],
+  "mechanism_associations": [
+    {
+      "mechanism": "label_prevalence_drift",
+      "n_model_window_cells": 36,
+      "spearman_rho": -0.16673422054365536,
+      "spearman_rho_ci95": [
+        -0.453974884262549,
+        0.14669572181156107
+      ],
+      "p_raw": 0.33108773386376444,
+      "q_bh": 0.4414503118183526
+    },
+    {
+      "mechanism": "numeric_standardized_mean_drift",
+      "n_model_window_cells": 36,
+      "spearman_rho": 0.5996218241911581,
+      "spearman_rho_ci95": [
+        0.36517331008695714,
+        0.7579421793775659
+      ],
+      "p_raw": 0.00011117368054632244,
+      "q_bh": 0.00044469472218528974
+    },
+    {
+      "mechanism": "missingness_drift",
+      "n_model_window_cells": 36,
+      "spearman_rho": 0.09163887492589266,
+      "spearman_rho_ci95": [
+        -0.2784873036765714,
+        0.4514238482515344
+      ],
+      "p_raw": 0.5950381667112028,
+      "q_bh": 0.5950381667112028
+    },
+    {
+      "mechanism": "discrete_total_variation_drift",
+      "n_model_window_cells": 36,
+      "spearman_rho": -0.1905533949070347,
+      "spearman_rho_ci95": [
+        -0.5106933028927714,
+        0.1554933502730296
+      ],
+      "p_raw": 0.26561879510530045,
+      "q_bh": 0.4414503118183526
+    }
+  ],
+  "mechanism_cluster_associations": [
+    {
+      "mechanism": "label_prevalence_drift",
+      "n_dataset_window_cells": 9,
+      "spearman_rho": -0.21666666666666667,
+      "spearman_rho_ci95": [
+        -0.6842105263157895,
+        0.4999999999999999
+      ],
+      "p_raw": 0.5755148957119259,
+      "q_bh": 0.5996230639246415
+    },
+    {
+      "mechanism": "numeric_standardized_mean_drift",
+      "n_dataset_window_cells": 9,
+      "spearman_rho": 0.7333333333333334,
+      "spearman_rho_ci95": [
+        0.15789473684210525,
+        0.9999999999999998
+      ],
+      "p_raw": 0.024554150071469705,
+      "q_bh": 0.09821660028587882
+    },
+    {
+      "mechanism": "missingness_drift",
+      "n_dataset_window_cells": 9,
+      "spearman_rho": 0.2034190510862431,
+      "spearman_rho_ci95": [
+        -0.5929203539823008,
+        0.9198662110077998
+      ],
+      "p_raw": 0.5996230639246415,
+      "q_bh": 0.5996230639246415
+    },
+    {
+      "mechanism": "discrete_total_variation_drift",
+      "n_dataset_window_cells": 9,
+      "spearman_rho": -0.2333333333333333,
+      "spearman_rho_ci95": [
+        -0.8119658119658117,
+        0.4999999999999999
+      ],
+      "p_raw": 0.5456987782182728,
+      "q_bh": 0.5996230639246415
+    }
+  ],
+  "evidence_boundary": "Complete fixed-configuration fits support registered effect estimation, not universal or causal claims."
+}

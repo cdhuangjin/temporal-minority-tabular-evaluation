@@ -1,0 +1,3 @@
+# Preserve the byte-level provenance hashes across operating systems.
+results/** -text
+analysis/** -text

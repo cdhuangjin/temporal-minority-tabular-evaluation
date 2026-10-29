@@ -1,0 +1,30 @@
+{
+  "input_files": {
+    "results/full_results_v01_20260915/full_records.csv": {
+      "sha256": "76900d658decf3a8da3da7b206dc0cd8b4ecaac640a45dd678e481329efe18b9",
+      "bytes": 260648
+    },
+    "results/final_convergence_sensitivity_v01_20260916/final_convergence_sensitivity_records.csv": {
+      "sha256": "07e27ae0fd5f5d95c22b81d5405b40b838ce9fbb12e5a1558a00089253705e42",
+      "bytes": 212735
+    },
+    "results/full_analysis_v01_20260915/mechanism_cluster_window_cells.csv": {
+      "sha256": "a600d3c65df96d13c64ff18dceb4c3e09b4f3e069bdb025e3d134a4094ee291f",
+      "bytes": 1332
+    },
+    "results/full_analysis_v01_20260915/full_analysis.json": {
+      "sha256": "1fa65715e669c2154f8c2780e3c6bf73e900d729ea4a3a88757adb57d0a04bc8",
+      "bytes": 19159
+    },
+    "analysis/reproduce.py": {
+      "sha256": "c0d24f905d0ce06f3e09006054a4db908127b98aaf594e9034a348c473ac8b01",
+      "historical_script_sha256": "85d24af340cd4aac6bcadfc65c6176434cd0b76337e4464b8b65cf7d3f34c7a5",
+      "changes": [
+        "Configurable output directory",
+        "Omitted two provenance-only hash inputs not used in calculations",
+        "Updated reproduction command and historical preprocessing note; numerical functions unchanged"
+      ]
+    }
+  },
+  "scope": "Minimal reproduction from derived fit-level results; no original dataset rows or manuscript files."
+}

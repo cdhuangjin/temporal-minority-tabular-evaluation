@@ -1,0 +1,1352 @@
+{
+  "tables": {
+    "primary_cell_effects_reproduced.csv": [
+      {
+        "dataset": "homesite-insurance",
+        "model": "logistic",
+        "ap_drop_pp": 4.836598913371515,
+        "auc_drop_pp": 2.0842427395966534,
+        "excess_pp": 2.7523561737748614
+      },
+      {
+        "dataset": "homesite-insurance",
+        "model": "xgboost",
+        "ap_drop_pp": 3.313419648581295,
+        "auc_drop_pp": 1.2846695183075685,
+        "excess_pp": 2.0287501302737265
+      },
+      {
+        "dataset": "homesite-insurance",
+        "model": "lightgbm",
+        "ap_drop_pp": 3.267392123986035,
+        "auc_drop_pp": 1.2562691482424504,
+        "excess_pp": 2.0111229757435845
+      },
+      {
+        "dataset": "homesite-insurance",
+        "model": "mlp",
+        "ap_drop_pp": 5.632287814991488,
+        "auc_drop_pp": 2.53650924398936,
+        "excess_pp": 3.0957785710021275
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "logistic",
+        "ap_drop_pp": -3.993593267224199,
+        "auc_drop_pp": 3.9973430149322753,
+        "excess_pp": -7.990936282156474
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "xgboost",
+        "ap_drop_pp": 0.0961504797494794,
+        "auc_drop_pp": 8.062050736559023,
+        "excess_pp": -7.965900256809544
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "lightgbm",
+        "ap_drop_pp": -0.3930172843217339,
+        "auc_drop_pp": 7.946943637881532,
+        "excess_pp": -8.339960922203266
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "mlp",
+        "ap_drop_pp": -0.8783131981251191,
+        "auc_drop_pp": 7.833561306373593,
+        "excess_pp": -8.711874504498711
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "logistic",
+        "ap_drop_pp": -0.9769531839651902,
+        "auc_drop_pp": -0.6325837699994397,
+        "excess_pp": -0.3443694139657505
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "xgboost",
+        "ap_drop_pp": -0.708629897464555,
+        "auc_drop_pp": 0.5931110200919409,
+        "excess_pp": -1.3017409175564958
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "lightgbm",
+        "ap_drop_pp": -0.9628042622276788,
+        "auc_drop_pp": 0.5887621542744914,
+        "excess_pp": -1.5515664165021703
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "mlp",
+        "ap_drop_pp": 1.5757054424992534,
+        "auc_drop_pp": 5.287305839163992,
+        "excess_pp": -3.711600396664738
+      }
+    ],
+    "final_cell_effects.csv": [
+      {
+        "dataset": "homesite-insurance",
+        "model": "logistic",
+        "ap_drop_pp": 4.836598913371515,
+        "auc_drop_pp": 2.0842427395966534,
+        "excess_pp": 2.7523561737748614
+      },
+      {
+        "dataset": "homesite-insurance",
+        "model": "xgboost",
+        "ap_drop_pp": 3.313419648581295,
+        "auc_drop_pp": 1.2846695183075685,
+        "excess_pp": 2.0287501302737265
+      },
+      {
+        "dataset": "homesite-insurance",
+        "model": "lightgbm",
+        "ap_drop_pp": 3.267392123986035,
+        "auc_drop_pp": 1.2562691482424504,
+        "excess_pp": 2.0111229757435845
+      },
+      {
+        "dataset": "homesite-insurance",
+        "model": "mlp",
+        "ap_drop_pp": 6.262823085706993,
+        "auc_drop_pp": 3.0546297869523675,
+        "excess_pp": 3.208193298754625
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "logistic",
+        "ap_drop_pp": -4.015441964650012,
+        "auc_drop_pp": 3.994601017167288,
+        "excess_pp": -8.0100429818173
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "xgboost",
+        "ap_drop_pp": 0.0961504797494794,
+        "auc_drop_pp": 8.062050736559023,
+        "excess_pp": -7.965900256809544
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "lightgbm",
+        "ap_drop_pp": -0.3930172843217339,
+        "auc_drop_pp": 7.946943637881532,
+        "excess_pp": -8.339960922203266
+      },
+      {
+        "dataset": "ecom-offers",
+        "model": "mlp",
+        "ap_drop_pp": 0.3139012130125629,
+        "auc_drop_pp": 10.080864087518592,
+        "excess_pp": -9.76696287450603
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "logistic",
+        "ap_drop_pp": -0.977093077307324,
+        "auc_drop_pp": -0.6325144640815794,
+        "excess_pp": -0.3445786132257447
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "xgboost",
+        "ap_drop_pp": -0.708629897464555,
+        "auc_drop_pp": 0.5931110200919409,
+        "excess_pp": -1.3017409175564958
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "lightgbm",
+        "ap_drop_pp": -0.9628042622276788,
+        "auc_drop_pp": 0.5887621542744914,
+        "excess_pp": -1.5515664165021703
+      },
+      {
+        "dataset": "homecredit-default",
+        "model": "mlp",
+        "ap_drop_pp": 0.7831218872917198,
+        "auc_drop_pp": 1.4031546505105077,
+        "excess_pp": -0.6200327632187876
+      }
+    ],
+    "all_four_drift_associations.csv": [
+      {
+        "mechanism": "label_prevalence_drift",
+        "n_dataset_window_cells": 9,
+        "spearman_rho": -0.2166666666666666,
+        "spearman_rho_ci95": "[-0.6842105263157895, 0.4999999999999999]",
+        "p_raw": 0.5755148957119259,
+        "q_bh": 0.5996230639246415
+      },
+      {
+        "mechanism": "numeric_standardized_mean_drift",
+        "n_dataset_window_cells": 9,
+        "spearman_rho": 0.7333333333333334,
+        "spearman_rho_ci95": "[0.15789473684210525, 0.9999999999999998]",
+        "p_raw": 0.0245541500714697,
+        "q_bh": 0.0982166002858788
+      },
+      {
+        "mechanism": "missingness_drift",
+        "n_dataset_window_cells": 9,
+        "spearman_rho": 0.2034190510862431,
+        "spearman_rho_ci95": "[-0.5929203539823008, 0.9198662110077998]",
+        "p_raw": 0.5996230639246415,
+        "q_bh": 0.5996230639246415
+      },
+      {
+        "mechanism": "discrete_total_variation_drift",
+        "n_dataset_window_cells": 9,
+        "spearman_rho": -0.2333333333333333,
+        "spearman_rho_ci95": "[-0.8119658119658117, 0.4999999999999999]",
+        "p_raw": 0.5456987782182728,
+        "q_bh": 0.5996230639246415
+      }
+    ],
+    "final_paired_ranking_gaps.csv": [
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.1096177354970029,
+        "lower_pp": -0.0384669094894862,
+        "upper_pp": 0.2425393252690089,
+        "positive_draw_frequency": 0.93145
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 4.455373571626453,
+        "lower_pp": 2.200067883310195,
+        "upper_pp": 5.969330442753009,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.0635902109017538,
+        "lower_pp": 0.0327695165657865,
+        "upper_pp": 0.1033534114976013,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 3.029149399290998,
+        "lower_pp": 1.7934404336739165,
+        "upper_pp": 4.029400888989458,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.2680226991823464,
+        "lower_pp": 0.1386689707466937,
+        "upper_pp": 0.4048605572507783,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 5.470120994781635,
+        "lower_pp": 4.071942526939329,
+        "upper_pp": 6.582116702982745,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.1148836681558074,
+        "lower_pp": 0.0211214487026248,
+        "upper_pp": 0.2144786630360368,
+        "positive_draw_frequency": 0.99445
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 4.277234065265157,
+        "lower_pp": 3.403592366937687,
+        "upper_pp": 5.19912911153716,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.4311178807288873,
+        "lower_pp": -0.0171101053565814,
+        "upper_pp": 1.1472627222210825,
+        "positive_draw_frequency": 0.951
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 3.281326528048351,
+        "lower_pp": 0.7159423137105725,
+        "upper_pp": 5.176655068539049,
+        "positive_draw_frequency": 0.99355
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "gap_pp": 0.0580498833423148,
+        "lower_pp": -0.0667032638693669,
+        "upper_pp": 0.1625293685758609,
+        "positive_draw_frequency": 0.82585
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": -1.048016649614231,
+        "lower_pp": -1.925868896121125,
+        "upper_pp": -0.1006289707174717,
+        "positive_draw_frequency": 0.012
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.5661709160520167,
+        "lower_pp": -0.1813292005611158,
+        "upper_pp": 1.236638835453124,
+        "positive_draw_frequency": 0.93755
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 2.9564507716812463,
+        "lower_pp": 0.9350118948583248,
+        "upper_pp": 4.997049700995851,
+        "positive_draw_frequency": 0.99905
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "gap_pp": 0.0835407452177638,
+        "lower_pp": -0.0301284836012692,
+        "upper_pp": 0.2004231280302052,
+        "positive_draw_frequency": 0.9187
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": -0.5315245413436587,
+        "lower_pp": -2.7663904267416743,
+        "upper_pp": 0.7668773042752032,
+        "positive_draw_frequency": 0.2937
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.2605256784659837,
+        "lower_pp": -0.258146380111494,
+        "upper_pp": 0.7984083636573559,
+        "positive_draw_frequency": 0.8227
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 1.8029611352128316,
+        "lower_pp": 0.9558523953528512,
+        "upper_pp": 2.8025234979557605,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.006351313702857,
+        "lower_pp": -0.3113434659868237,
+        "upper_pp": 0.3220690430231155,
+        "positive_draw_frequency": 0.51485
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 0.0427461706137902,
+        "lower_pp": -0.2594472022103119,
+        "upper_pp": 0.3179138951195107,
+        "positive_draw_frequency": 0.617
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "gap_pp": 0.3291021206407091,
+        "lower_pp": -0.099760711401457,
+        "upper_pp": 0.8573426265286344,
+        "positive_draw_frequency": 0.9202
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 1.8692080732529408,
+        "lower_pp": 1.2365772340611754,
+        "upper_pp": 2.5147341877563183,
+        "positive_draw_frequency": 1.0
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "gap_pp": 0.049020623408777,
+        "lower_pp": -0.5269282690450329,
+        "upper_pp": 0.5856153244873047,
+        "positive_draw_frequency": 0.57135
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "gap_pp": 0.0678502908389555,
+        "lower_pp": -0.5597448434589356,
+        "upper_pp": 0.5951326616527042,
+        "positive_draw_frequency": 0.60215
+      }
+    ],
+    "final_per_window_ranking_gaps.csv": [
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.1284840679105059
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.2471203632345697
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": -0.0467512246540047
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 5.431746118164728
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 5.868598531723421
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 2.065776064991267
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.0493590888786732
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.1027641461316286
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.0386473976949575
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 4.045868961181083
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 3.286385303248025
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 1.7551939334438926
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.4103028173791156
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.2417687515134581
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.1519965286545144
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 6.211225037397135
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 6.016307857343195
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 4.182830089604551
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.1086834791890179
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.2108136564586771
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.0251538688196428
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 5.18234076003345
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 4.266749275626792
+      },
+      {
+        "dataset": "homesite-insurance",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 3.382612160135216
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.0255773098988165
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 1.2116287673580306
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.0561475649298048
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.666282888786216
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 4.2009796369797625
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 4.976717058379066
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.1425150880118797
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": -0.072918919929561
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.1045534819446636
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": -1.8847884492732576
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": -0.044275634703691
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": -1.2149858648657552
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.6560016461192519
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 1.2760922775996142
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": -0.2335811755628691
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.9899086064610272
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 5.109483241027489
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 2.7699604675552267
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.0757324000325199
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.0276582678214421
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.1472315677992997
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.5027498949725018
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.7358325342311117
+      },
+      {
+        "dataset": "ecom-offers",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": -2.833156053234586
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": -0.2787914418764581
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.2933093465060576
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.7670591307683466
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 1.6495392038139454
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.926311633408244
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 2.8330325684163014
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": -0.3106193853382882
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": -0.000349170792
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.3300224972388588
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": -0.2729168948053881
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.1161695496967479
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.284985856950008
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.0364302747299971
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.2204424739357724
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "lightgbm",
+        "model_b": "xgboost",
+        "mean_seed_gap_pp": 0.730433613256371
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 1.850823257065522
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 1.272116267107804
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "temporal",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 2.484684695585504
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.161899400296504
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": 0.5375169211890646
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "xgboost",
+        "model_b": "lightgbm",
+        "mean_seed_gap_pp": -0.5523544512592365
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 0,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": -0.6003996672689219
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 1,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.3359818188429983
+      },
+      {
+        "dataset": "homecredit-default",
+        "condition": "random",
+        "metric": "worst_window_auprc",
+        "window": 2,
+        "model_a": "logistic",
+        "model_b": "mlp",
+        "mean_seed_gap_pp": 0.4679687209427901
+      }
+    ],
+    "split_sizes_prevalence.csv": [
+      {
+        "dataset": "homesite-insurance",
+        "temporal_split": "sliding-window-0",
+        "condition": "temporal",
+        "train_n": 180753,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 420,
+        "train_prevalence": 0.1933633190043872,
+        "positive_prevalence": 0.17515,
+        "test_positive_n": 3503
+      },
+      {
+        "dataset": "homesite-insurance",
+        "temporal_split": "sliding-window-0",
+        "condition": "random",
+        "train_n": 180753,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 420,
+        "train_prevalence": 0.1899719506730178,
+        "positive_prevalence": 0.18495,
+        "test_positive_n": 3699
+      },
+      {
+        "dataset": "homesite-insurance",
+        "temporal_split": "sliding-window-1",
+        "condition": "temporal",
+        "train_n": 180753,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 420,
+        "train_prevalence": 0.1894906308608985,
+        "positive_prevalence": 0.16735,
+        "test_positive_n": 3347
+      },
+      {
+        "dataset": "homesite-insurance",
+        "temporal_split": "sliding-window-1",
+        "condition": "random",
+        "train_n": 180753,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 420,
+        "train_prevalence": 0.1854630351916704,
+        "positive_prevalence": 0.19215,
+        "test_positive_n": 3843
+      },
+      {
+        "dataset": "homesite-insurance",
+        "temporal_split": "sliding-window-2",
+        "condition": "temporal",
+        "train_n": 180753,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 419,
+        "train_prevalence": 0.1856456047755777,
+        "positive_prevalence": 0.18765,
+        "test_positive_n": 3753
+      },
+      {
+        "dataset": "homesite-insurance",
+        "temporal_split": "sliding-window-2",
+        "condition": "random",
+        "train_n": 180753,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 420,
+        "train_prevalence": 0.1844837983325311,
+        "positive_prevalence": 0.183,
+        "test_positive_n": 3660
+      },
+      {
+        "dataset": "ecom-offers",
+        "temporal_split": "sliding-window-0",
+        "condition": "temporal",
+        "train_n": 80057,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 119,
+        "train_prevalence": 0.2153715477722123,
+        "positive_prevalence": 0.3099,
+        "test_positive_n": 6198
+      },
+      {
+        "dataset": "ecom-offers",
+        "temporal_split": "sliding-window-0",
+        "condition": "random",
+        "train_n": 80057,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 119,
+        "train_prevalence": 0.2412406160610564,
+        "positive_prevalence": 0.24565,
+        "test_positive_n": 4913
+      },
+      {
+        "dataset": "ecom-offers",
+        "temporal_split": "sliding-window-1",
+        "condition": "temporal",
+        "train_n": 80057,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 119,
+        "train_prevalence": 0.2300735725795371,
+        "positive_prevalence": 0.3578,
+        "test_positive_n": 7156
+      },
+      {
+        "dataset": "ecom-offers",
+        "temporal_split": "sliding-window-1",
+        "condition": "random",
+        "train_n": 80057,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 119,
+        "train_prevalence": 0.2637245962251895,
+        "positive_prevalence": 0.2671,
+        "test_positive_n": 5342
+      },
+      {
+        "dataset": "ecom-offers",
+        "temporal_split": "sliding-window-2",
+        "condition": "temporal",
+        "train_n": 80057,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 119,
+        "train_prevalence": 0.257141786477135,
+        "positive_prevalence": 0.3621,
+        "test_positive_n": 7242
+      },
+      {
+        "dataset": "ecom-offers",
+        "temporal_split": "sliding-window-2",
+        "condition": "random",
+        "train_n": 80057,
+        "val_n": 20000,
+        "test_n": 20000,
+        "feature_dim": 119,
+        "train_prevalence": 0.2903681127196872,
+        "positive_prevalence": 0.29265,
+        "test_positive_n": 5853
+      },
+      {
+        "dataset": "homecredit-default",
+        "temporal_split": "sliding-window-0",
+        "condition": "temporal",
+        "train_n": 181664,
+        "val_n": 50000,
+        "test_n": 50000,
+        "feature_dim": 988,
+        "train_prevalence": 0.028156376607363,
+        "positive_prevalence": 0.03466,
+        "test_positive_n": 1733
+      },
+      {
+        "dataset": "homecredit-default",
+        "temporal_split": "sliding-window-0",
+        "condition": "random",
+        "train_n": 181664,
+        "val_n": 50000,
+        "test_n": 50000,
+        "feature_dim": 1003,
+        "train_prevalence": 0.0309692619341201,
+        "positive_prevalence": 0.03044,
+        "test_positive_n": 1522
+      },
+      {
+        "dataset": "homecredit-default",
+        "temporal_split": "sliding-window-1",
+        "condition": "temporal",
+        "train_n": 181664,
+        "val_n": 50000,
+        "test_n": 50000,
+        "feature_dim": 990,
+        "train_prevalence": 0.031558261405672,
+        "positive_prevalence": 0.04396,
+        "test_positive_n": 2198
+      },
+      {
+        "dataset": "homecredit-default",
+        "temporal_split": "sliding-window-1",
+        "condition": "random",
+        "train_n": 181664,
+        "val_n": 50000,
+        "test_n": 50000,
+        "feature_dim": 1001,
+        "train_prevalence": 0.0344867447595561,
+        "positive_prevalence": 0.03336,
+        "test_positive_n": 1668
+      },
+      {
+        "dataset": "homecredit-default",
+        "temporal_split": "sliding-window-2",
+        "condition": "temporal",
+        "train_n": 181664,
+        "val_n": 50000,
+        "test_n": 50000,
+        "feature_dim": 1003,
+        "train_prevalence": 0.0332812224766602,
+        "positive_prevalence": 0.02174,
+        "test_positive_n": 1087
+      },
+      {
+        "dataset": "homecredit-default",
+        "temporal_split": "sliding-window-2",
+        "condition": "random",
+        "train_n": 181664,
+        "val_n": 50000,
+        "test_n": 50000,
+        "feature_dim": 1008,
+        "train_prevalence": 0.0328078210322353,
+        "positive_prevalence": 0.03374,
+        "test_positive_n": 1687
+      }
+    ]
+  },
+  "source_table_hashes": {
+    "primary_cell_effects_reproduced.csv": "5a9a08da3d0fdd91deeaecbf00ecb7fe3edc8e7554df853cd2bd222fa0395bbd",
+    "final_cell_effects.csv": "ea5a810b610ddc7b8e78b0e9a0f76ab1538f5ee01ad83bbb127583605c04bfb3",
+    "all_four_drift_associations.csv": "458764ab73bcd1376c15d83fc0950d29dffe244810892775c988502b15ef3d37",
+    "final_paired_ranking_gaps.csv": "acce8874881272a4f518bfb402951c83ac579c5018cd072401572a8b3b939a46",
+    "final_per_window_ranking_gaps.csv": "2570efa18e4f86142ce0914b2a63ae8a07a9e485752daa1784cbf09a3745f3a8",
+    "split_sizes_prevalence.csv": "1fdf1d37d06eee49218491d2710041cff5a92b198d6e925862a561cf8944570b"
+  }
+}
